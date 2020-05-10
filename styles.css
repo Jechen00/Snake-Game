@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #006600;
+}
+
+#points {
+    margin: 5px;
+}
+
+.box {
+    box-sizing: border-box;
+    border: solid black 1px;
+    background-color: #009933;
+    width: 30px;
+    height: 30px;
+}
+
+#endPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
